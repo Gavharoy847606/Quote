@@ -8,5 +8,4 @@ quotes.get('/quotes', quotesAll );
 quotes.post('/quote', quotesPost);
 
 
-
 export default quotes;

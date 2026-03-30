@@ -23,6 +23,7 @@ export const quotesPost = async (req, res) => {
       [quote_txt, user_id],
     );
     
+    
     res
       .status(200)
       .json({ message: "Yangi maqol qo'shildi", quote: result.rows[0] });
@@ -30,3 +31,4 @@ export const quotesPost = async (req, res) => {
     res.status(500).json({ message: error.message });
   }
 };
+
