@@ -2,6 +2,8 @@ function AllQuotes() {
   const quotes = [
     { text: "Bilim kuchdir", user: "Ali" },
     { text: "Sabr qil", user: "Vali" },
+
+
   ];
 
   return (

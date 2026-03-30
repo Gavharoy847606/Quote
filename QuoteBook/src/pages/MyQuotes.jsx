@@ -1,7 +1,7 @@
 function MyQuotes() {
   const myQuotes = [
-    { text: "Men yozgan maqol 1" },
-    { text: "Men yozgan maqol 2" },
+    { text: "Men yozgan maqol " },
+    { text: "Men yozgan maqol " },
   ];
 
   return (
